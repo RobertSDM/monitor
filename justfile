@@ -1,4 +1,4 @@
-run: gen-sources build
+run: gen-sources build del-sources
     java -ea -cp build FileMonitor
 
 build:
@@ -6,3 +6,6 @@ build:
 
 gen-sources:
     find -name "*.java*" > sources.txt
+
+del-sources:
+    rm sources.txt
