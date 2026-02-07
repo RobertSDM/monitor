@@ -1,4 +1,4 @@
-package fileMonitor.listener;
+package io.github.robertsdm.monitor.internal.listener;
 
 public interface FileSystemEventListener {
     /**

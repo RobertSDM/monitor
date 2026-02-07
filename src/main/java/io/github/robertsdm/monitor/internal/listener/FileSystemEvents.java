@@ -1,6 +1,6 @@
-package fileMonitor.listener;
+package io.github.robertsdm.monitor.internal.listener;
 
-public enum FSEvents {
+public enum FileSystemEvents {
     FILE_DELETED,
     FILE_CREATED,
     FILE_MODIFIED,
